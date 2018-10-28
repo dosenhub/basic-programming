@@ -394,7 +394,113 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="9---looping-1">9 - Looping 1</h1>
+                                <h1 id="jobsheet-9---looping-1">Jobsheet 9 - Looping 1</h1>
+<p>Loop is a block or group instruction (statement) that executed repeatedly. The
+purpose of loop or repetition to make the process more efficient. We can use
+three syntaxes to create loop in java. Please check the basic structure below.</p>
+<pre><code class="lang-java"><span class="hljs-comment">// loop using for syntax</span>
+<span class="hljs-keyword">for</span> (initialization; condition; update) {
+  statement;
+  ...
+}
+
+<span class="hljs-comment">// loop using while syntax</span>
+<span class="hljs-keyword">while</span> (condition) {
+  statement;
+  ...
+}
+
+<span class="hljs-comment">// loop using do while syntax</span>
+do {
+  statement;
+  ...
+} <span class="hljs-keyword">while</span> (condition);
+</code></pre>
+<p>The loop syntaxes have condition that limit the repeat repetition. For and while
+works by check the condition first then execute the statement. Do while works by
+opposite way. You can check flowchart below to understand about the execution.</p>
+<p><img src="images/09/flowchart-for-and-while.png" alt="Flowchart For While"></p>
+<p><img src="images/09/flowchart-do-while.png" alt="Flowchart Do While"></p>
+<h2 id="experiment">Experiment</h2>
+<h3 id="experiment-1">Experiment 1</h3>
+<ul>
+<li><p>Rewrite program below!</p>
+<ul>
+<li>Looping using <code>for</code></li>
+</ul>
+<p><img src="images/09/factorial-for.png" alt="Factorial For"></p>
+<ul>
+<li>Looping using <code>while</code></li>
+</ul>
+<p><img src="images/09/factorial-while.png" alt="Factorial While"></p>
+<ul>
+<li>Looping using <code>do-while</code></li>
+</ul>
+<p><img src="images/09/factorial-do-while.png" alt="Factorial Do While"></p>
+</li>
+<li><p>Then check the result!</p>
+<p><img src="images/09/factorial-output.png" alt="Factorial Output"></p>
+</li>
+</ul>
+<h3 id="experiment-2">Experiment 2</h3>
+<ul>
+<li><p>Copy the looping program that using <code>break</code> below.</p>
+<ul>
+<li><p>Looping using <code>for</code></p>
+<p><img src="images/09/looping-for-break.png" alt="Looping For Break"></p>
+<blockquote>
+<p><strong>Note</strong> <code>for</code> without condition is equals to <em>infinite loop</em></p>
+</blockquote>
+</li>
+<li><p>Looping using <code>while</code></p>
+<p><img src="images/09/looping-while-break.png" alt="Looping While Break"></p>
+</li>
+<li><p>Looping using <code>do-while</code></p>
+<p><img src="images/09/looping-do-while-break.png" alt="Looping Do While Break"></p>
+</li>
+</ul>
+</li>
+<li><p>Check the result of your program below!</p>
+<p>  <img src="images/09/looping-break-output.png" alt="Looping Break Output"></p>
+</li>
+</ul>
+<h3 id="experiment-3">Experiment 3</h3>
+<ul>
+<li><p>Rewrite the looping program that using <code>continue</code> below.</p>
+<p><img src="images/09/looping-for-continue.png" alt="Looping Continue"></p>
+</li>
+<li><p>Check the result of your program below!</p>
+<p><img src="images/09/looping-continue-output.png" alt="Looping Continue Output"></p>
+</li>
+</ul>
+<h2 id="assignment">Assignment</h2>
+<ol>
+<li><p>(SumEven) Create a program that ask user positive number <strong>N</strong> (N &gt; 0).
+Then program sum only even number. <strong>Example</strong>:</p>
+<ul>
+<li>If user input N = 3, it means: 0 + 2 + 4 = 6</li>
+<li>If user input N = 5, it means: 0 + 2 + 4 + 6 + 8 = 20</li>
+</ul>
+<blockquote>
+<p>Program only needs to display the result of sum</p>
+</blockquote>
+</li>
+<li><p>(SumQuadrate) Create a program that ask user positive number <strong>N</strong> (N &gt; 0).
+Sum operation use quadrate number {1, 4, 9, 16, 25, 36, ... N<sup>2</sup>}.
+<strong>Example</strong>:</p>
+<ul>
+<li>If user input N = 2, it means: 1 + 4 = 5</li>
+<li>If user input N = 3, it means: 1 + 4 + 9 = 14</li>
+</ul>
+</li>
+<li><p>(OddDigit) Create a program that ask user positive number <strong>N</strong> (N &gt; 0).
+Program checks the total odd digit from number. <strong>Example</strong>:</p>
+<ul>
+<li>If user input N = 2345, the total odd digit = 2</li>
+<li>If user input N = 993312, the total odd digit = 5</li>
+</ul>
+</li>
+</ol>
 
                                 
                                 </section>
@@ -438,7 +544,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"9 - Looping 1","level":"1.11","depth":1,"next":{"title":"10 - Looping 2","level":"1.12","depth":1,"path":"2018-2019/10.md","ref":"2018-2019/10.md","articles":[]},"previous":{"title":"8 - Midterm Exam","level":"1.10","depth":1,"path":"2018-2019/08.md","ref":"2018-2019/08.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Basic Programming","gitbook":"*"},"file":{"path":"2018-2019/09.md","mtime":"2018-10-18T00:10:34.221Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-21T14:30:22.010Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"9 - Looping 1","level":"1.11","depth":1,"next":{"title":"10 - Looping 2","level":"1.12","depth":1,"path":"2018-2019/10.md","ref":"2018-2019/10.md","articles":[]},"previous":{"title":"8 - Midterm Exam","level":"1.10","depth":1,"path":"2018-2019/08.md","ref":"2018-2019/08.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Basic Programming","gitbook":"*"},"file":{"path":"2018-2019/09.md","mtime":"2018-10-28T21:48:48.586Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-28T21:49:02.547Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -446,10 +552,6 @@
         
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
-    
-        
-        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
